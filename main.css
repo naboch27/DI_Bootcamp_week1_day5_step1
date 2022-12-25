@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: "Raleway";
+}
+.img-1{
+    background-image: url("../images/headerback.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+  
+  }
+  .nav-st{
+    background-color: orange;
+  }
+  .info-per{
+    position: absolute;
+    margin-left: -30px;
+    text-align: justify;
+    margin-left: 300px;
+    margin-top: 200px;
+  }
+  .txt-cl {
+    color:orange ;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .bt-cl{
+    border: 1px solid orange;
+    background-color:orange ;
+    color: white;
+    
+  }
+  .xt-cl-1{
+    font-size: 20px;
+  }
+  .img-portf{
+    background-repeat: no-repeat;
+    background-size: cover;
+  height: 300px;
+  width: 310px;
+  
+  }
+  .img-teams{
+    background-repeat: no-repeat;
+    background-size: cover;
+  height: 220px;
+  width: 220px;
+  
+  }
+
+  .m-g-t{
+    margin-top: 70px;
+  }
+  .mt-g-1{
+    margin-left: 80px;
+  }
+  .st-imag{
+    border-right: groove;
+  }
+  .m-g-p{
+    margin-bottom: 80px;
+  }
+  .bt-deco-txt{
+    border-top: groove;
+  }
+  .cont-st{
+    margin-top: 54px;
+  }
+  .cl-ico {
+    color: orange ;
+    font-size: 25px;
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+.cl-ico-1{
+  background-color: orange;
+  border: 1px solid orange;
+}
+.cl-ico-2{
+  color: orange;
+  font-size: 40px;
+}
+.container-all{
+  background-color: rgb(243, 239, 239);
+}
+
+
+@media screen and(max-width:668px){
+  .rounded-circle{
+    width: 100%;
+  }
+  
+}
